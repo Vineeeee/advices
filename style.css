@@ -68,7 +68,7 @@ img:nth-child(2){
 
 input{
     width: 40px;
-    background: url(/icon-dice.svg)no-repeat center center;
+    background: url(./icon-dice.svg)no-repeat center center;
     background-color: var(--advice-dice-color);
     background-size: 15px;
     padding: 10px;
