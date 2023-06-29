@@ -1,0 +1,82 @@
+html{
+    font-family: Manrope;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advice{
+    height: 320px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+}
+
+.palavras{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.advice p{
+    margin-top: 40px ;
+    font-size: 10px;
+    color: var(--advice-dice-color);
+    display: flex;
+}
+
+.advice h2{
+    margin-top: 40px ;
+    font-weight: 800;
+    font-size: 20px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    margin-top: 60px;
+}
+
+img:nth-child(2){
+    max-width: 450px;
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+}
+
+/* img:nth-child(3){
+    max-width: 40px;
+    background-color: var(--advice-dice-color);
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 232px;
+    border: 1px var(--advice-card-color) solid;
+} */
+
+input{
+    width: 40px;
+    background: url(/icon-dice.svg)no-repeat center center;
+    background-color: var(--advice-dice-color);
+    background-size: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 232px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px var(--advice-card-color) solid;
+}
